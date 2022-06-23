@@ -1,0 +1,78 @@
+html{
+    height: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0%;
+    height: 100%;
+}
+
+header{
+    background-color: rgb(197, 199, 200);
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+    background-color: black;
+    overflow: hidden;
+}
+
+#barra-nav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: smaller;
+    align-items: center;
+   
+}
+
+#barra-nav ul{
+    margin: 10px 0px;
+}
+
+#Cajero{
+    background-image: url("img/style.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 40px;
+    text-align: center;
+    font-size:35px;
+    color: rgb(8, 8, 8);
+    display: block;
+    height: 70%;
+}
+
+#menu p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    color: white;  
+}
+
+h3{
+    font-size: larger;
+    color: white; 
+}
+
+
+footer{
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.visible{
+    display: block !important;
+}
+
+.invisible{
+    display: none !important;
+}   
